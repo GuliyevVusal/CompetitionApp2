@@ -13,7 +13,7 @@ public class Menu {
 
     private final List<Contestant> contestantList = new ArrayList<>();
     private final RegisterContestants registerContestants = new RegisterContestants();
-    private final StartCompetition startCompetition = new StartCompetition();
+  
 
     public void displayMenu(Scanner sc) {
         showMenuOptions(sc);
